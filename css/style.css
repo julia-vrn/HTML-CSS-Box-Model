@@ -1,10 +1,46 @@
+/*https://colorhunt.co/palette/158245*/
+
+
 body {
+  color: #40514e;
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
- margin: 0;
+  color: #315b96;
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Loved by the King', cursive;
+}
+
+h2 {
+  font-family: 'Loved by the King', cursive;
+  font-weight: normal;
+  color: #315b96;  
+  font-size: 4rem;
+  margin: 0.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #233567;
+  font-family: 'Loved by the King', cursive;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 5rem auto;
+
 }
 
 .pro {
@@ -13,18 +49,116 @@ h1 {
 
 .top-container {
   background-color: #fddede;
+  font-family: 'Mitr', sans-serif;
   padding-top: 5rem;
   position: relative;
 }
 
+.top-container p {
+  font-family: 'Mitr', sans-serif;
+
+}
+
 .top-cloud {
   position: absolute;
-  right: 45rem;
-  top: 6rem;
+  /*dynamic 
+  1rem = 16px*/
+  right: 25rem;
+  top: 10%;
 }
 
 .bottom-cloud {
   position: absolute; 
-  left: 40rem;
+  left: 30rem;
+}
 
+.middle-container {
+  margin: 4rem 0;
+}
+
+.intro {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+.bottom-container {
+  background-color: #fbc1bc;
+  padding: 2rem 0 2rem;
+
+}
+
+.bottom-container a {
+  display: inline-block;
+  color: #97706c;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  margin: 1.5rem 1.5rem;
+}
+
+.bottom-container a:hover {
+  color: #ffefee;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.img-js {
+  width: 150px;
+  float: left;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  
+}
+
+.img-camera {
+  width: 150px;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  display: inline-block;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Loved by the King', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 3rem;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4aD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4aD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4aD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4aD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4aD);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ffefee;
+  font-size: 0.8rem;
 }
